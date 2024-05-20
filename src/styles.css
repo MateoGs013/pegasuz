@@ -1,11 +1,11 @@
 :root {
-    --primary-color: #1e2123;
+    --secondary-color: #1e2123;
     /* Negro */
-    --secondary-color: #e2e6e3;
+    --primary-color: #e2e6e3;
     /* Blanco */
-    --accent-color: #ff5e17;
+    --highlight-color: #ff5e17;
     /* Naranja */
-    --highlight-color: #06273f;
+    --accent-color: #06273f;
     /* Azul */
     --text-color: #333;
     --background-color: #f5f5f5;

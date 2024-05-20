@@ -4,7 +4,6 @@
     align-items: center;
     padding: 10px 20px;
     background-color: var(--primary-color);
-    color: #fff;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -20,8 +19,8 @@
 .navbar-logo .brand-name {
     font-family: 'Cocomat Pro', sans-serif;
     font-size: 1.5rem;
-    color: #fff;
     text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .navbar-links {
@@ -43,7 +42,7 @@
 }
 
 .navbar-links a {
-    color: #fff;
+    color: var(--secondary-color);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     position: relative;
