@@ -5,9 +5,13 @@
     padding: 20px;
     background-color: var(--primary-color);
     color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: top 0.3s;
 }
 
-.navbar-brand .brand-name {
+.navbar-logo .brand-name {
     font-family: 'Cocomat Pro', sans-serif;
     font-size: 1.5rem;
     color: #fff;
@@ -31,5 +35,11 @@
 }
 
 .navbar-links a.active {
-    border-bottom: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--accent-color);
+}
+
+/* Navbar hide on scroll */
+.hidden-navbar {
+    top: -70px;
+    /* Adjust based on navbar height */
 }
