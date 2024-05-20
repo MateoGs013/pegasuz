@@ -1,0 +1,49 @@
+.hero {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-family: 'Cocomat Pro', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    color: var(--secondary-color);
+}
+
+.brand-name {
+    color: #fff;
+}
+
+.hero-subtitle {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.intro {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
