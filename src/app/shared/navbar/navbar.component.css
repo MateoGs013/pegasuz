@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
     background-color: var(--primary-color);
@@ -9,6 +9,12 @@
     top: 0;
     z-index: 1000;
     transition: top 0.3s;
+}
+
+.navbar-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .navbar-logo .brand-name {
