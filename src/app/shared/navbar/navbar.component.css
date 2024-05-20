@@ -1,8 +1,8 @@
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px 20px;
     background-color: var(--primary-color);
     color: #fff;
     position: sticky;
@@ -30,6 +30,14 @@
     gap: 20px;
 }
 
+.navbar-links.left {
+    margin-right: auto;
+}
+
+.navbar-links.right {
+    margin-left: auto;
+}
+
 .navbar-links li {
     display: inline;
 }
@@ -38,14 +46,26 @@
     color: #fff;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 
-.navbar-links a.active {
-    border-bottom: 2px solid var(--accent-color);
+.navbar-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: var(--accent-color);
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s;
+}
+
+.navbar-links a:hover::after,
+.navbar-links a.active::after {
+    width: 100%;
 }
 
 /* Navbar hide on scroll */
 .hidden-navbar {
     top: -70px;
-    /* Adjust based on navbar height */
 }
