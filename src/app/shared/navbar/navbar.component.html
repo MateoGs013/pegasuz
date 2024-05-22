@@ -1,14 +1,58 @@
-<nav class="navbar">
-    <ul class="navbar-links left">
-        <li><a routerLink="/" routerLinkActive="active">Home</a></li>
-        <li><a routerLink="/about" routerLinkActive="active">About</a></li>
-    </ul>
-    <div class="navbar-logo">
-        <a routerLink="/" class="brand-name">Pegasuz</a>
+<div class="navbar">
+    <div class="navbar-top">
+        <div class="navbar-logo">
+            <img src="assets/logo.png" alt="Logo">
+        </div>
+        <div class="navbar-links">
+            <a routerLink="/inicio" routerLinkActive="active">Inicio</a>
+            <a routerLink="/about" routerLinkActive="active">Nosotros</a>
+            <a routerLink="/services" routerLinkActive="active">Servicios</a>
+            <a routerLink="/portfolio" routerLinkActive="active">Portafolio</a>
+            <a routerLink="/contact" routerLinkActive="active">Contacto</a>
+        </div>
     </div>
-    <ul class="navbar-links right">
-        <li><a routerLink="/services" routerLinkActive="active">Services</a></li>
-        <li><a routerLink="/portfolio" routerLinkActive="active">Portfolio</a></li>
-        <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
-    </ul>
-</nav>
+    <div class="navbar-social">
+        <a href="https://www.linkedin.com" target="_blank">
+            <img src="../../../assets/icons/linkedin-icon.png" alt="LinkedIn">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="../../../assets/icons/instagram-icon.png" alt="Instagram">
+        </a>
+        <a href="https://www.github.com" target="_blank">
+            <img src="../../../assets/icons/github-icon.png" alt="GitHub">
+        </a>
+    </div>
+    <div class="navbar-scroll">
+        <button class="scroll-up">⬆️</button>
+        <button class="scroll-down">⬇️</button>
+    </div>
+</div>
+
+<div class="mobile-menu">
+    <div class="mobile-logo">
+        <img src="assets/logo.png" alt="Logo">
+    </div>
+    <div class="mobile-links">
+        <a routerLink="/inicio" routerLinkActive="active"><img src="../../../assets/icons/home-icon.png" alt="Home">
+            Inicio</a>
+        <a routerLink="/about" routerLinkActive="active"><img src="../../../assets/icons/group-icon.png" alt="Nosotros">
+            Nosotros</a>
+        <a routerLink="/services" routerLinkActive="active"><img src="../../../assets/icons/services-icon.png"
+                alt="Servicios">
+            Servicios</a>
+        <a routerLink="/portfolio" routerLinkActive="active"><img src="../../../assets/icons/portfolio-icon.png"
+                alt="Portafolio">
+            Portafolio</a>
+        <a routerLink="/contact" routerLinkActive="active"><img src="../../../assets/icons/contact-icon.png"
+                alt="Contacto">
+            Contacto</a>
+    </div>
+    <div class="mobile-social">
+        <a href="https://www.github.com" target="_blank"><img src="../../../assets/icons/github-icon.png"
+                alt="GitHub"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="../../../assets/icons/instagram-icon.png"
+                alt="Instagram"></a>
+        <a href="https://www.linkedin.com" target="_blank"><img src="../../../assets/icons/linkedin.png"
+                alt="LinkedIn"></a>
+    </div>
+</div>

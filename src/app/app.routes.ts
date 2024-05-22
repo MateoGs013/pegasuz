@@ -2,33 +2,33 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: '',
+    path: 'inicio',
     loadComponent: () =>
       import('./components/home/home.component').then((m) => m.HomeComponent),
   },
   {
-    path: 'about',
+    path: 'nosotros',
     loadComponent: () =>
       import('./components/about/about.component').then(
         (m) => m.AboutComponent
       ),
   },
   {
-    path: 'services',
+    path: 'servicios',
     loadComponent: () =>
       import('./components/services/services.component').then(
         (m) => m.ServicesComponent
       ),
   },
   {
-    path: 'portfolio',
+    path: 'portafolio',
     loadComponent: () =>
       import('./components/portfolio/portfolio.component').then(
         (m) => m.PortfolioComponent
       ),
   },
   {
-    path: 'contact',
+    path: 'contacto',
     loadComponent: () =>
       import('./components/contact/contact.component').then(
         (m) => m.ContactComponent
