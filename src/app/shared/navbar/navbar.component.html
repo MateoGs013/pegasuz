@@ -1,58 +1,23 @@
-<div class="navbar">
-    <div class="navbar-top">
-        <div class="navbar-logo">
-            <img src="assets/logo.png" alt="Logo">
+<div class="sidebar collapsed">
+    <button class="toggle-btn" (click)="toggleSidebar()">
+        <i class="fa fa-chevron-right"></i>
+    </button>
+    <div class="sidebar-content">
+        <div class="sidebar-logo">
+            <img src="../../../assets/logos/logos-sinnom/4.png" alt="Logo">
+            <span>Pegasuz</span>
         </div>
-        <div class="navbar-links">
-            <a routerLink="/inicio" routerLinkActive="active">Inicio</a>
-            <a routerLink="/about" routerLinkActive="active">Nosotros</a>
-            <a routerLink="/services" routerLinkActive="active">Servicios</a>
-            <a routerLink="/portfolio" routerLinkActive="active">Portafolio</a>
-            <a routerLink="/contact" routerLinkActive="active">Contacto</a>
+        <div class="sidebar-links">
+            <a href="inicio"><i class="fa-solid fa-house"></i> <span>Inicio</span></a>
+            <a href="nosotros"><i class="fa-solid fa-user"></i> <span>Nosotros</span></a>
+            <a href="servicios"><i class="fa-solid fa-book"></i> <span>Servicios</span></a>
+            <a href="portafolio"><i class="fa-solid fa-folder"></i> <span>Portafolio</span></a>
+            <a href="contacto"><i class="fa-solid fa-envelope"></i> <span>Contacto</span></a>
         </div>
-    </div>
-    <div class="navbar-social">
-        <a href="https://www.linkedin.com" target="_blank">
-            <img src="../../../assets/icons/linkedin-icon.png" alt="LinkedIn">
-        </a>
-        <a href="https://www.instagram.com" target="_blank">
-            <img src="../../../assets/icons/instagram-icon.png" alt="Instagram">
-        </a>
-        <a href="https://www.github.com" target="_blank">
-            <img src="../../../assets/icons/github-icon.png" alt="GitHub">
-        </a>
-    </div>
-    <div class="navbar-scroll">
-        <button class="scroll-up">⬆️</button>
-        <button class="scroll-down">⬇️</button>
-    </div>
-</div>
-
-<div class="mobile-menu">
-    <div class="mobile-logo">
-        <img src="assets/logo.png" alt="Logo">
-    </div>
-    <div class="mobile-links">
-        <a routerLink="/inicio" routerLinkActive="active"><img src="../../../assets/icons/home-icon.png" alt="Home">
-            Inicio</a>
-        <a routerLink="/about" routerLinkActive="active"><img src="../../../assets/icons/group-icon.png" alt="Nosotros">
-            Nosotros</a>
-        <a routerLink="/services" routerLinkActive="active"><img src="../../../assets/icons/services-icon.png"
-                alt="Servicios">
-            Servicios</a>
-        <a routerLink="/portfolio" routerLinkActive="active"><img src="../../../assets/icons/portfolio-icon.png"
-                alt="Portafolio">
-            Portafolio</a>
-        <a routerLink="/contact" routerLinkActive="active"><img src="../../../assets/icons/contact-icon.png"
-                alt="Contacto">
-            Contacto</a>
-    </div>
-    <div class="mobile-social">
-        <a href="https://www.github.com" target="_blank"><img src="../../../assets/icons/github-icon.png"
-                alt="GitHub"></a>
-        <a href="https://www.instagram.com" target="_blank"><img src="../../../assets/icons/instagram-icon.png"
-                alt="Instagram"></a>
-        <a href="https://www.linkedin.com" target="_blank"><img src="../../../assets/icons/linkedin.png"
-                alt="LinkedIn"></a>
+        <div class="sidebar-social">
+            <a href="https://www.github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
     </div>
 </div>
